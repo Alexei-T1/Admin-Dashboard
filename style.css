@@ -1,0 +1,28 @@
+
+
+:root {
+  --color-left-board: skyblue;
+  --colorFont-left-board: white;
+}
+
+html, body, .container__dasboard {
+  width: 100%;
+  height: 100vh;
+}
+
+html {
+  font-size: 16px;
+}
+
+.container__dasboard {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 15% 85%;
+}
+
+.left_board {
+  grid-row: 1 / -1;
+  background: var(--color-left-board);
+  color: var(--colorFont-left-board);
+  
+}
