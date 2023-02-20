@@ -343,17 +343,16 @@ grid-row: 1/2;
 .action {
   width: 25px;
   height: 25px;
-  background: no-repeat center/contain url("/images/svg/check_box_!.svg");
   margin-left: 25px;
 }
 .action:nth-child(1) {
-  background: no-repeat center/contain url("/images/svg/bookmark_add_.svg");
+  background: no-repeat center/contain url("./images/svg/bookmark_add_.svg");
 }
 .action:nth-child(2) {
-  background: no-repeat center/contain url("/images/svg/visibility_.svg");
+  background: no-repeat center/contain url("./images/svg/visibility_.svg");
 }
 .action:nth-child(3) {
-  background: no-repeat center/contain url("/images/svg/share_.svg");
+  background: no-repeat center/contain url("./images/svg/share_.svg");
   transform: rotate(-90deg);
 }
 .action_link {
